@@ -10,10 +10,10 @@
         </classes>
     </test>
 
-<!--    <test name="Home page tests - FF">-->
-<!--        <parameter name="browser" value="firefox"/>-->
-<!--        <classes>-->
-<!--            <class name="com.linkedIn.SignInPageTests"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Home page tests - FF">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.linkedIn.SignInPageTests"></class>
+        </classes>
+    </test>
 </suite>

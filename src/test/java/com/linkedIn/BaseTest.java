@@ -22,7 +22,7 @@ import static com.linkedIn.helpers.properties.UrlLinkProp.MAIN_URL;
 @Listeners({})
 public class BaseTest {
     public String baseUrl = MAIN_URL;
-    public String remoteURL = "http://10.0.2.15:4444/wd/hub";
+    public String remoteURL = "http://172.17.0.1:4444/wd/hub";
     public RemoteWebDriver driver;
 
 //    @BeforeTest
