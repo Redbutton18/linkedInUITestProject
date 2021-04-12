@@ -133,6 +133,15 @@
 
     </dependencies>
 
+    <profiles>
+        <profile>
+            <id>regression</id>
+            <properties>
+                <suite.xml.file>src/main/resources/testrunners/runner.xml</suite.xml.file>
+            </properties>
+        </profile>
+    </profiles>
+
     <reporting>
         <excludeDefaults>true</excludeDefaults>
         <plugins>
